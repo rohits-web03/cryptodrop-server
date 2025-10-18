@@ -26,5 +26,3 @@ docker build -t cryptodrop-server .
 docker run --env-file .env -p 8080:8080 --name cryptodrop-server cryptodrop-server
 ```
 
-If you're running the server using the `docker-compose.yml` root directory, follow the instructions in root `README.md`
-
